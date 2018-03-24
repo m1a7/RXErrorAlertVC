@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RXErrorAlertVC_Example' do
+  pod 'RXErrorAlertVC', :path => '../'
+
+  target 'RXErrorAlertVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
